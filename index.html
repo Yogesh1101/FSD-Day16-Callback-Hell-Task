@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CALL BACK HELL TASK</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Tektur&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .header {
+        width: 100%;
+        border: 2px solid black;
+        height: 80px;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .header h1 {
+        letter-spacing: 0.2em;
+      }
+      .container {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .top {
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+        letter-spacing: 0.15em;
+        font-size: 40px;
+      }
+      #result {
+        margin-top: 50px;
+        font-size: 100px;
+        font-family: "Tektur", cursive;
+      }
+      @media only screen and (max-width: 500px) {
+        header {
+          display: block;
+          width: 500px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header
+      class="header card-title bg-dark h1 text-bg-success text-center pb-3 pt-3 mb-3"
+    >
+      <h1 id="title" class="fs-1">CALL BACK HELL TASK</h1>
+    </header>
+    <div class="container">
+      <div><h1 class="top">COUNTDOWN</h1></div>
+      <div><h1 id="result"></h1></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
